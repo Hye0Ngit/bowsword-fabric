@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "bowsword",
+  "version": "${version}",
+
+  "name": "Bowsword",
+  "description": "Fused Bow and Sword",
+  "authors": [
+    "Me!"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT",
+  "icon": "assets/bowsword/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "kr.kro.yewonmods.bowsword.BowswordMod"
+    ],
+    "client": [
+      "kr.kro.yewonmods.bowsword.BowswordClient"
+    ]
+  },
+  "mixins": [
+    "bowsword.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

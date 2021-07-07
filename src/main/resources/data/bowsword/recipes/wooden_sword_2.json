@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "bowsword:wooden_bow"
+    }
+  ],
+  "result": {
+    "item": "bowsword:wooden_sword",
+    "count": 1
+  }
+}
